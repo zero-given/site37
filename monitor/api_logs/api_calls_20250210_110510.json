@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-02-10T11:05:21.873884",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xe095e2d63c69Eb2e9cf3e464dA54946aa9c4786D"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xe095e2d63c69eb2e9cf3e464da54946aa9c4786d\":{\"buy_tax\":\"0\",\"cannot_buy\":\"0\",\"creator_address\":\"0x05919c757fae7144dc0934baf72a4fbdb2180611\",\"creator_balance\":\"218510436592.412372214\",\"creator_percent\":\"0.519410\",\"holder_count\":\"18\",\"holders\":[{\"address\":\"0x05919c757fae7144dc0934baf72a4fbdb2180611\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"218510436592.412372214\",\"percent\":\"0.519409628449481499\",\"is_locked\":0},{\"address\":\"0xe095e2d63c69eb2e9cf3e464da54946aa9c4786d\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"111809867986.888673994\",\"percent\":\"0.265777337200524552\",\"is_locked\":0},{\"address\":\"0xf56ac907a853b8d9b136a8f047b4f915e60e5f8f\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"8245524000\",\"percent\":\"0.019600000000000000\",\"is_locked\":0},{\"address\":\"0xf0e82f038bee02040bb28683d8f250631c773ff1\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"7875316800\",\"percent\":\"0.018720000000000000\",\"is_locked\":0},{\"address\":\"0xd4caa14d7b695b4ed1436e3bbe91d92be5db701d\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"7875316800\",\"percent\":\"0.018720000000000000\",\"is_locked\":0},{\"address\":\"0xc24ee35a302548901a6df2eab295af48ebf0ff9b\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"7875316800\",\"percent\":\"0.018720000000000000\",\"is_locked\":0},{\"address\":\"0xb1b6286423efa8a13f3de2ec6a04edac0e9fe7ee\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"7875316800\",\"percent\":\"0.018720000000000000\",\"is_locked\":0},{\"address\":\"0x94e886224c131b83290b11851f8e832ece8508da\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"7875316800\",\"percent\":\"0.018720000000000000\",\"is_locked\":0},{\"address\":\"0x4bd599765da40112831505cd773834c50d9f139a\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"7875316800\",\"percent\":\"0.018720000000000000\",\"is_locked\":0},{\"address\":\"0x23732f38bb11318d3a57922cd4bcb1aa17fb1e8b\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"7875316800\",\"percent\":\"0.018720000000000000\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_in_dex\":\"0\",\"is_open_source\":\"0\",\"lp_holder_count\":\"1\",\"lp_holders\":[{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000055\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"18.023784785665856723\",\"owner_address\":\"\",\"sell_tax\":\"\",\"token_name\":\"Yahoo Official Dog\",\"token_symbol\":\"BILL\",\"total_supply\":\"420690000000\"}}}",
+    "error": null,
+    "time_since_last_call": null
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-02-10T11:05:22.162183",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xe095e2d63c69Eb2e9cf3e464dA54946aa9c4786D"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Yahoo Official Dog\", \"symbol\":\"BILL\", \"decimals\":9, \"address\":\"0xe095e2d63c69Eb2e9cf3e464dA54946aa9c4786D\", \"totalHolders\":18}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984850}, \"summary\":{\"risk\":\"honeypot\", \"riskLevel\":100, \"flags\":[{\"flag\":\"some_snipers_honeypot\", \"description\":\"Some of the snipers were blacklisted, but not all.\", \"severity\":\"info\", \"severityIndex\":4}, {\"flag\":\"closed_source\", \"description\":\"The source code is not available, allowing for hidden functionality.\", \"severity\":\"high\", \"severityIndex\":16}]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":true, \"honeypotReason\":\"execution reverted: UniswapV2: INSUFFICIENT_OUTPUT_AMOUNT\"}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":100, \"transferTax\":0, \"buyGas\":\"0\", \"sellGas\":\"0\"}, \"holderAnalysis\":{\"holders\":\"15\", \"successful\":\"1\", \"failed\":\"0\", \"siphoned\":\"0\", \"averageTax\":6.1, \"averageGas\":291131, \"highestTax\":6.1, \"highTaxWallets\":\"0\", \"taxDistribution\":[{\"tax\":6, \"count\":1}], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[\"some_snipers_honeypot\"], \"contractCode\":{\"openSource\":false, \"rootOpenSource\":false, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WETH-BILL\", \"address\":\"0x791Ff16dB103feA455763095c7a6D58C87c8e6Eb\", \"token0\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"token1\":\"0xe095e2d63c69Eb2e9cf3e464dA54946aa9c4786D\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"85\", \"reserves1\":\"11891\", \"liquidity\":5.300439999999999e-13, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739147075\", \"creationTxHash\":\"0xb07e54bf8b1db4af06a15d87585688f2b6490a629336b672e98ac8f8198b5f6c\"}, \"pairAddress\":\"0x791Ff16dB103feA455763095c7a6D58C87c8e6Eb\"}",
+    "error": null,
+    "time_since_last_call": null
+  }
+]

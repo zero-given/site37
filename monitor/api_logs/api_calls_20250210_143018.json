@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-02-10T14:30:30.103494",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0x96cA261989a0a39A92889F18138632F28Fa677FA"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0x96ca261989a0a39a92889f18138632f28fa677fa\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x2904b7e43b0dc6958698a01368fbd2eaed3119b7\",\"creator_balance\":\"0\",\"creator_percent\":\"0.000000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"31954.21417646\",\"pair\":\"0x807b4ff5fcf8fa67edd60df8d2922c27571c6cc7\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"0\",\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x000000000000000000000000000000000000dead\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"0.969948452238570284\",\"percent\":\"0.999999999999998969\",\"NFT_list\":null,\"is_locked\":1},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000001030\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"0.969948452238571284\",\"owner_address\":\"0x0000000000000000000000000000000000000000\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.000000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"Big Balls Squad\",\"token_symbol\":\"BIGBALLS\",\"total_supply\":\"1000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": null
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-02-10T14:30:30.416918",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0x96cA261989a0a39A92889F18138632F28Fa677FA"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Big Balls Squad\", \"symbol\":\"BIGBALLS\", \"decimals\":9, \"address\":\"0x96cA261989a0a39A92889F18138632F28Fa677FA\", \"totalHolders\":80}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984919}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"165394\", \"sellGas\":\"108651\"}, \"holderAnalysis\":{\"holders\":\"68\", \"successful\":\"68\", \"failed\":\"0\", \"siphoned\":\"0\", \"averageTax\":0, \"averageGas\":132619.9411764706, \"highestTax\":0, \"highTaxWallets\":\"0\", \"taxDistribution\":[{\"tax\":0, \"count\":68}], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: BIGBALLS-WETH\", \"address\":\"0x807b4FF5FCF8FA67edd60DF8d2922c27571C6CC7\", \"token0\":\"0x96cA261989a0a39A92889F18138632F28Fa677FA\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"72156503647930674\", \"reserves1\":\"13172498115449868130\", \"liquidity\":69282.07108802012, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739159051\", \"creationTxHash\":\"0x9f0adb6a008a0af0d954d4419def10bc60f92a2627586c6cf58e9c4ed15c6847\"}, \"pairAddress\":\"0x807b4FF5FCF8FA67edd60DF8d2922c27571C6CC7\"}",
+    "error": null,
+    "time_since_last_call": null
+  },
+  {
+    "id": 3,
+    "timestamp": "2025-02-10T14:30:45.721746",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0x6ab435c8A28a0Ce7C360930Cfe614F92ad977F99"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0x6ab435c8a28a0ce7c360930cfe614f92ad977f99\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x69e1089fb96e8f48f2a97bc2b32e62ad5b42bdd5\",\"creator_balance\":\"0\",\"creator_percent\":\"0.000000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"27159.20599740\",\"pair\":\"0x6e14b242b701f586096f7bafe5dd18b26a0096e0\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"63\",\"holders\":[{\"address\":\"0x6e14b242b701f586096f7bafe5dd18b26a0096e0\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"106479956.884107137\",\"percent\":\"0.106479956884107137\",\"is_locked\":0},{\"address\":\"0xd8da6bf26964af9d7eed9e03e53415d37aa96045\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"30000000\",\"percent\":\"0.030000000000000000\",\"is_locked\":0},{\"address\":\"0x6ab435c8a28a0ce7c360930cfe614f92ad977f99\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"23132428.571428565\",\"percent\":\"0.023132428571428565\",\"is_locked\":0},{\"address\":\"0xb9f7cf9fc55b971ba34d5e1289292b345009f153\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19202040.81632653\",\"percent\":\"0.019202040816326530\",\"is_locked\":0},{\"address\":\"0xb6451c7cafdf1b8716dfa15494db7008096e9843\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19202040.81632653\",\"percent\":\"0.019202040816326530\",\"is_locked\":0},{\"address\":\"0xb2fbc6d4b3a78e304d941c1c338c6f76dd3bce2e\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19202040.81632653\",\"percent\":\"0.019202040816326530\",\"is_locked\":0},{\"address\":\"0x9bf01e6aeea26a4e45e496a1c380d62eda3ee1d4\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19202040.81632653\",\"percent\":\"0.019202040816326530\",\"is_locked\":0},{\"address\":\"0x74c2524682a39bba2ab79132b7035e14bf034af3\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19202040.81632653\",\"percent\":\"0.019202040816326530\",\"is_locked\":0},{\"address\":\"0x6bfb91412c9e4f927c79bd50131cf436154010f3\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19202040.81632653\",\"percent\":\"0.019202040816326530\",\"is_locked\":0},{\"address\":\"0x572085df9fa0a417785549b1cba7cc5b41a34d01\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19202040.81632653\",\"percent\":\"0.019202040816326530\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"1\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x000000000000000000000000000000000000dead\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"0.969999999999999\",\"percent\":\"0.999999999999998969\",\"NFT_list\":null,\"is_locked\":1},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000001030\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"0.97\",\"owner_address\":\"0x0000000000000000000000000000000000000000\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.000000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"Central African Republic Meme\",\"token_symbol\":\"CAR\",\"total_supply\":\"1000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 15.61825156211853
+  },
+  {
+    "id": 4,
+    "timestamp": "2025-02-10T14:30:45.871913",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0x6ab435c8A28a0Ce7C360930Cfe614F92ad977F99"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Central African Republic Meme\", \"symbol\":\"CAR\", \"decimals\":9, \"address\":\"0x6ab435c8A28a0Ce7C360930Cfe614F92ad977F99\", \"totalHolders\":97}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984917}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"174976\", \"sellGas\":\"155152\"}, \"holderAnalysis\":{\"holders\":\"98\", \"successful\":\"98\", \"failed\":\"0\", \"siphoned\":\"0\", \"averageTax\":0.5111224489795919, \"averageGas\":188129.4693877551, \"highestTax\":17.1, \"highTaxWallets\":\"0\", \"taxDistribution\":[{\"tax\":0, \"count\":95}, {\"tax\":15, \"count\":1}, {\"tax\":16, \"count\":1}, {\"tax\":17, \"count\":1}], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: CAR-WETH\", \"address\":\"0x6E14B242b701f586096F7bAfe5dD18B26a0096e0\", \"token0\":\"0x6ab435c8A28a0Ce7C360930Cfe614F92ad977F99\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"80909337119967444\", \"reserves1\":\"11766612714926336117\", \"liquidity\":61887.67623542656, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739159159\", \"creationTxHash\":\"0x6051b606b27d0194e0ede2d51c4dad76a997acedf36e85171da5425146b36fe9\"}, \"pairAddress\":\"0x6E14B242b701f586096F7bAfe5dD18B26a0096e0\"}",
+    "error": null,
+    "time_since_last_call": 15.454994440078735
+  },
+  {
+    "id": 5,
+    "timestamp": "2025-02-10T14:31:01.174878",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0x9891D74250D59498e728c5f65d873D5Ea04b998a"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0x9891d74250d59498e728c5f65d873d5ea04b998a\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x75bb612a28023c9009dca5cbf10d6e6745257bbd\",\"creator_balance\":\"7999999.9999\",\"creator_percent\":\"1.000000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"26.43460000\",\"pair\":\"0xe265b1ec357ebde3e8b1d01d41455685b387b26f\"}],\"external_call\":\"0\",\"hidden_owner\":\"1\",\"holder_count\":\"2\",\"holders\":[{\"address\":\"0x75bb612a28023c9009dca5cbf10d6e6745257bbd\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"7999999.9999\",\"percent\":\"0.999999999987500000\",\"is_locked\":0},{\"address\":\"0xe265b1ec357ebde3e8b1d01d41455685b387b26f\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"0.0001\",\"percent\":\"0.000000000012500000\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"1\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x75bb612a28023c9009dca5cbf10d6e6745257bbd\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000999999999999\",\"percent\":\"0.999999999999000000\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000001000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"0.001\",\"owner_address\":\"0x75bb612a28023c9009dca5cbf10d6e6745257bbd\",\"owner_balance\":\"7999999.9999\",\"owner_change_balance\":\"0\",\"owner_percent\":\"1.000000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0.9803\",\"slippage_modifiable\":\"1\",\"token_name\":\"DaBaby\",\"token_symbol\":\"DBY\",\"total_supply\":\"8000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 15.453131914138794
+  },
+  {
+    "id": 6,
+    "timestamp": "2025-02-10T14:31:01.619737",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0x9891D74250D59498e728c5f65d873D5Ea04b998a"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"DaBaby\", \"symbol\":\"DBY\", \"decimals\":18, \"address\":\"0x9891D74250D59498e728c5f65d873D5Ea04b998a\", \"totalHolders\":4}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984919}, \"summary\":{\"risk\":\"honeypot\", \"riskLevel\":100, \"flags\":[{\"flag\":\"extremely_high_taxes\", \"description\":\"The taxes on the token are extremely high, making it an effective honeypot. Actual rate varies, but generally >50%.\", \"severity\":\"critical\", \"severityIndex\":20}, {\"flag\":\"closed_source\", \"description\":\"The source code is not available, allowing for hidden functionality.\", \"severity\":\"high\", \"severityIndex\":16}]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":true, \"honeypotReason\":\"Honeypot detected\"}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":98.94851181172594, \"transferTax\":0, \"buyGas\":\"144528\", \"sellGas\":\"110404\"}, \"flags\":[\"EXTREMELY_HIGH_TAXES\"], \"contractCode\":{\"openSource\":false, \"rootOpenSource\":false, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: DBY-WETH\", \"address\":\"0xE265b1ec357eBde3e8B1D01d41455685b387B26F\", \"token0\":\"0x9891D74250D59498e728c5f65d873D5Ea04b998a\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"83375020843756\", \"reserves1\":\"12000000000000000\", \"liquidity\":63.11520000000001, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739159627\", \"creationTxHash\":\"0xd3c50ac7a23f23e2e45fd859a3f0bc42089f3e4e4b546a2e1ac5b965ce69004b\"}, \"pairAddress\":\"0xE265b1ec357eBde3e8B1D01d41455685b387B26F\"}",
+    "error": null,
+    "time_since_last_call": 15.74782395362854
+  }
+]

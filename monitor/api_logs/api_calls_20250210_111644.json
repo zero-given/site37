@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-02-10T11:16:57.034069",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0x5B928Db2b43BD30577a849a373cDdd1F65656ba6"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0x5b928db2b43bd30577a849a373cddd1f65656ba6\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"creator_balance\":\"800000000\",\"creator_percent\":\"1.000000\",\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"0\",\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"0\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"owner_address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"owner_balance\":\"800000000\",\"owner_change_balance\":\"0\",\"owner_percent\":\"1.000000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"Realton\",\"token_symbol\":\"RLT\",\"total_supply\":\"800000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": null
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-02-10T11:16:57.326484",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0x5B928Db2b43BD30577a849a373cDdd1F65656ba6"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Realton\", \"symbol\":\"RLT\", \"decimals\":18, \"address\":\"0x5B928Db2b43BD30577a849a373cDdd1F65656ba6\", \"totalHolders\":2}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984851}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"179945\", \"sellGas\":\"104946\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":true, \"hasProxyCalls\":true}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: RLT-WETH\", \"address\":\"0x8709356dc249d4baA4A7CFa5263112E4c20B2EAF\", \"token0\":\"0x5B928Db2b43BD30577a849a373cDdd1F65656ba6\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"400000000000000000\", \"reserves1\":\"600000000000000000\", \"liquidity\":3178.752, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739148371\", \"creationTxHash\":\"0xa300469be3ae17a9397a72548b2f9b8d2b13ab1dc1d7e9287e6660c9e3d6863f\"}, \"pairAddress\":\"0x8709356dc249d4baA4A7CFa5263112E4c20B2EAF\"}",
+    "error": null,
+    "time_since_last_call": null
+  }
+]

@@ -1,0 +1,548 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-02-10T09:37:25.677899",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xa3f8be9b18c9128b99efcf1cc8adb63daacd5ca8\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"creator_address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"creator_balance\":\"22040368607.749435778039056937\",\"creator_percent\":\"0.958277\",\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"3\",\"holders\":[{\"address\":\"0xf2002db46d35b8e1dcb78e3c64e79b8670da220d\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"22937630497.438329052548932857\",\"percent\":\"0.997288282497318654\",\"is_locked\":0},{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"62213578.805266770082439476\",\"percent\":\"0.002704938208924642\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"155923.756404177368627667\",\"percent\":\"0.000006779293756703\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"0\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"355668.384875574792771934\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"355668.384875574792772934\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"\",\"slippage_modifiable\":\"0\",\"token_name\":\"\\uD83E\\uDD88SharkAi\",\"token_symbol\":\"\\uD83E\\uDD88SharkAi\",\"total_supply\":\"23000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": null
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-02-10T09:37:25.945929",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"\ud83e\udd88SharkAi\", \"symbol\":\"\ud83e\udd88SharkAi\", \"decimals\":18, \"address\":\"0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8\", \"totalHolders\":9}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"honeypot\", \"riskLevel\":100, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":true, \"honeypotReason\":\"execution reverted: UniswapV2: INSUFFICIENT_OUTPUT_AMOUNT\"}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":100, \"transferTax\":0, \"buyGas\":\"0\", \"sellGas\":\"0\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: \ud83e\udd88SharkAi-WETH\", \"address\":\"0xF2002DB46D35b8e1dcB78e3c64e79B8670Da220d\", \"token0\":\"0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"61793952\", \"reserves1\":\"1\", \"liquidity\":0, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739139587\", \"creationTxHash\":\"0xe741742ef94a270472dcda57b1cb2d3067a2c1440b488dd8fb27c251b53e8c0c\"}, \"pairAddress\":\"0xF2002DB46D35b8e1dcB78e3c64e79B8670Da220d\"}",
+    "error": null,
+    "time_since_last_call": null
+  },
+  {
+    "id": 3,
+    "timestamp": "2025-02-10T09:37:41.450766",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xd56cef68b9c65e6e271a6ca6a394f7f129aa33cc\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"creator_balance\":\"67078808.611219453543579562\",\"creator_percent\":\"0.002916\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"13769.44730978\",\"pair\":\"0xcf1b860b279d324fec714e9659012d092935d50b\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"4\",\"holders\":[{\"address\":\"0xcf1b860b279d324fec714e9659012d092935d50b\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"22799433221.161951001756241568\",\"percent\":\"0.991279705267910913\",\"is_locked\":0},{\"address\":\"0x453c6bbc42ac532bdf6149c36d8fedf4e87997a4\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"132986553.279734422204569475\",\"percent\":\"0.005782024055640627\",\"is_locked\":0},{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"67078808.611219453543579562\",\"percent\":\"0.002916469939618237\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"501416.947095122495609395\",\"percent\":\"0.000021800736830222\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"342490.875790874172010908\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"342490.875790874172011908\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"SysCall\",\"token_symbol\":\"SysCall\",\"total_supply\":\"23000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 15.77286696434021
+  },
+  {
+    "id": 4,
+    "timestamp": "2025-02-10T09:37:41.740615",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"SysCall\", \"symbol\":\"SysCall\", \"decimals\":18, \"address\":\"0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC\", \"totalHolders\":5}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"144028\", \"sellGas\":\"104245\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WETH-SysCall\", \"address\":\"0xCf1b860B279D324fEc714e9659012D092935d50b\", \"token0\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"token1\":\"0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"5294914706330698763\", \"reserves1\":\"22155965199779149883917410930\", \"liquidity\":27795.019361118248, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739140091\", \"creationTxHash\":\"0xe129a5559c263825c75afcd17bbb4609777fe654ba61daef63ee7caaecf0256f\"}, \"pairAddress\":\"0xCf1b860B279D324fEc714e9659012D092935d50b\"}",
+    "error": null,
+    "time_since_last_call": 15.794686079025269
+  },
+  {
+    "id": 5,
+    "timestamp": "2025-02-10T09:37:57.100551",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xc343bca88e6309b4d19a410d51dd0e5a6f41a0ab\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0xcfee37da8b59a69c6bb2947b86afa87545eb068c\",\"creator_balance\":\"71397881704.646032774374125801\",\"creator_percent\":\"0.713979\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"5086.70905682\",\"pair\":\"0x3dd02e08555fb4bce1bd5f3daf09cd58bb1d3637\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"4\",\"holders\":[{\"address\":\"0x3dd02e08555fb4bce1bd5f3daf09cd58bb1d3637\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"95909204778.531055754747999813\",\"percent\":\"0.959092047785310557\",\"is_locked\":0},{\"address\":\"0xcfee37da8b59a69c6bb2947b86afa87545eb068c\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"3083068233.415271884638870187\",\"percent\":\"0.030830682334152718\",\"is_locked\":0},{\"address\":\"0xb44ea272f317e379567ce54acd94a2891597024e\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"1000000000\",\"percent\":\"0.010000000000000000\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"7726988.05367236061313\",\"percent\":\"0.000077269880536723\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"2\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0xcfee37da8b59a69c6bb2947b86afa87545eb068c\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"175008.928343670512288208\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"175008.928343670512289208\",\"owner_address\":\"0x0000000000000000000000000000000000000000\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.000000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"\\uD83D\\uDCF1 NOKIA\u2122 OFFICIAL\",\"token_symbol\":\"\\uD83D\\uDCF1 NOKIA\u2122\",\"total_supply\":\"100000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 15.649785280227661
+  },
+  {
+    "id": 6,
+    "timestamp": "2025-02-10T09:37:57.246122",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"\ud83d\udcf1 NOKIA\u2122 OFFICIAL\", \"symbol\":\"\ud83d\udcf1 NOKIA\u2122\", \"decimals\":18, \"address\":\"0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab\", \"totalHolders\":17}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"142283\", \"sellGas\":\"104515\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WETH-\ud83d\udcf1 NOKIA\u2122\", \"address\":\"0x3DD02E08555FB4BCE1Bd5F3dAF09cd58BB1D3637\", \"token0\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"token1\":\"0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"354647046961788422\", \"reserves1\":\"86946404626005352748624189060\", \"liquidity\":1859.0385413508768, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739140727\", \"creationTxHash\":\"0xb8c568ceb6dd602fc1faa3d5d133ab94e1a78e36dcb1b3f96d15364b28dc575a\"}, \"pairAddress\":\"0x3DD02E08555FB4BCE1Bd5F3dAF09cd58BB1D3637\"}",
+    "error": null,
+    "time_since_last_call": 15.505507230758667
+  },
+  {
+    "id": 7,
+    "timestamp": "2025-02-10T09:38:12.754407",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xb1c8ada4cd0f939235f53dfadc4e075bf2b47adb\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"creator_address\":\"0xdf4aceb86a299a3fe3fea8921a04360a5d34a623\",\"creator_balance\":\"3340064583.36939613\",\"creator_percent\":\"0.835016\",\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"1\",\"holders\":[{\"address\":\"0x00c35b6c660493499761f05239888ce6fbc0247c\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"4000000000\",\"percent\":\"1.000000000000000000\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"0\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0xdf4aceb86a299a3fe3fea8921a04360a5d34a623\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"6.324555320336757663\",\"percent\":\"0.999999999999999841\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000158\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"6.324555320336758663\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"\",\"slippage_modifiable\":\"0\",\"token_name\":\"Bear White\",\"token_symbol\":\"WHITBEAR\",\"total_supply\":\"4000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 15.653855562210083
+  },
+  {
+    "id": 8,
+    "timestamp": "2025-02-10T09:38:13.055318",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Bear White\", \"symbol\":\"WHITBEAR\", \"decimals\":10, \"address\":\"0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb\", \"totalHolders\":11}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984823}, \"summary\":{\"risk\":\"honeypot\", \"riskLevel\":100, \"flags\":[{\"flag\":\"high_fail_rate\", \"description\":\"A very high amount of users cannot sell their tokens.\", \"severity\":\"critical\", \"severityIndex\":20}]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":true, \"honeypotReason\":\"execution reverted: UniswapV2: INSUFFICIENT_OUTPUT_AMOUNT\"}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":100, \"transferTax\":0, \"buyGas\":\"0\", \"sellGas\":\"0\"}, \"holderAnalysis\":{\"holders\":\"2\", \"successful\":\"0\", \"failed\":\"2\", \"siphoned\":\"0\", \"averageTax\":0, \"averageGas\":0, \"highestTax\":0, \"highTaxWallets\":\"0\", \"taxDistribution\":[], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[\"high_fail_rate\"], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WHITBEAR-WETH\", \"address\":\"0x00C35b6C660493499761F05239888Ce6fbc0247c\", \"token0\":\"0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"159014902673718291\", \"reserves1\":\"1\", \"liquidity\":0, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739140751\", \"creationTxHash\":\"0xaeaace6f9874c19a90bfd7026942cec4c2ed906bded9bc45da41689852402f82\"}, \"pairAddress\":\"0x00C35b6C660493499761F05239888Ce6fbc0247c\"}",
+    "error": null,
+    "time_since_last_call": 15.80919599533081
+  },
+  {
+    "id": 9,
+    "timestamp": "2025-02-10T09:38:28.415147",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xb95F938731a01F816D1932Bf2929b3738c8AA5Be"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xb95f938731a01f816d1932bf2929b3738c8aa5be\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x36231de97d1813d3dcf8bd84d814d582042c77a4\",\"creator_balance\":\"197237025.2145163925\",\"creator_percent\":\"0.049309\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"3572.23441575\",\"pair\":\"0xf05c1dc033c1edeeaee902a6bedcd42ad9c5071a\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"4\",\"holders\":[{\"address\":\"0xf05c1dc033c1edeeaee902a6bedcd42ad9c5071a\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"3607425302.6836054324\",\"percent\":\"0.901856325670901358\",\"is_locked\":0},{\"address\":\"0x36231de97d1813d3dcf8bd84d814d582042c77a4\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"197237025.2145163925\",\"percent\":\"0.049309256303629098\",\"is_locked\":0},{\"address\":\"0x367c8c762d11cbe09a6669e2d73233004cc290d5\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"194356235.3585871888\",\"percent\":\"0.048589058839646797\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"981436.7432909863\",\"percent\":\"0.000245359185822746\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x36231de97d1813d3dcf8bd84d814d582042c77a4\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"6.324555320336757663\",\"percent\":\"0.999999999999999841\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000158\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"6.324555320336758663\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"Wild Cat\",\"token_symbol\":\"WILDCAT\",\"total_supply\":\"4000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 15.66074013710022
+  },
+  {
+    "id": 10,
+    "timestamp": "2025-02-10T09:38:28.566090",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xb95F938731a01F816D1932Bf2929b3738c8AA5Be"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Wild Cat\", \"symbol\":\"WILDCAT\", \"decimals\":10, \"address\":\"0xb95F938731a01F816D1932Bf2929b3738c8AA5Be\", \"totalHolders\":12}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984823}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"141849\", \"sellGas\":\"104190\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WILDCAT-WETH\", \"address\":\"0xF05C1DC033c1eDEeaee902a6beDcd42ad9C5071A\", \"token0\":\"0xb95F938731a01F816D1932Bf2929b3738c8AA5Be\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"28353301899030634284\", \"reserves1\":\"1412242016099897197\", \"liquidity\":7392.437322955556, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739141723\", \"creationTxHash\":\"0x62dbb75564debb401f758b0fb90fdd1c22a73be1277730bbc0cb1f476647289f\"}, \"pairAddress\":\"0xF05C1DC033c1eDEeaee902a6beDcd42ad9C5071A\"}",
+    "error": null,
+    "time_since_last_call": 15.51077127456665
+  },
+  {
+    "id": 11,
+    "timestamp": "2025-02-10T09:38:43.930846",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xfCf09A045b37735ee43AF85895646591d2f7118D"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xfcf09a045b37735ee43af85895646591d2f7118d\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x317ab241f5d6a79207570a9c313a89c3329b1457\",\"creator_balance\":\"20000000\",\"creator_percent\":\"0.020000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"30521.75897865\",\"pair\":\"0x26cf51f69a5c741147d8ba91dae9a2aea78a8d2a\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"69\",\"holders\":[{\"address\":\"0x26cf51f69a5c741147d8ba91dae9a2aea78a8d2a\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"123584149.64734418\",\"percent\":\"0.123584149647344180\",\"is_locked\":0},{\"address\":\"0x317ab241f5d6a79207570a9c313a89c3329b1457\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"20000000\",\"percent\":\"0.020000000000000000\",\"is_locked\":0},{\"address\":\"0xce6b3bf77aa701c7ff0f4e97b8abc7637adc7bca\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19997999.999999999\",\"percent\":\"0.019997999999999999\",\"is_locked\":0},{\"address\":\"0xdda00dce8c96c4455780c31813aea92c9867e7a3\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19964999.999999999\",\"percent\":\"0.019964999999999999\",\"is_locked\":0},{\"address\":\"0x65b5fd916d12ea06bddcb4685e9abc5bb1d32031\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19964999.999999999\",\"percent\":\"0.019964999999999999\",\"is_locked\":0},{\"address\":\"0x1cbd03df5a120d5d4e5e4486466935693248e976\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19920999.999999999\",\"percent\":\"0.019920999999999999\",\"is_locked\":0},{\"address\":\"0x4a41660d48dfa5c44c8f6d1d023278f9be4d8fef\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19911999.999999999\",\"percent\":\"0.019911999999999999\",\"is_locked\":0},{\"address\":\"0xa95cbf736fa4daeac143e2ff2e7cbc5fab76ae32\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19898999.999999999\",\"percent\":\"0.019898999999999999\",\"is_locked\":0},{\"address\":\"0xe8e3fc5d2a50c042c9dfacbd982448c878fcd006\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19891999.999999999\",\"percent\":\"0.019891999999999999\",\"is_locked\":0},{\"address\":\"0x4634927d3433083a35b9940640bebcc4c15c4851\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19831999.999999999\",\"percent\":\"0.019831999999999999\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x000000000000000000000000000000000000dead\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"0.989949493661165534\",\"percent\":\"0.999999999999998989\",\"NFT_list\":null,\"is_locked\":1},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000001010\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"0.989949493661166534\",\"owner_address\":\"0x0000000000000000000000000000000000000000\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.000000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"Gulf Of America\",\"token_symbol\":\"GOA\",\"total_supply\":\"1000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 15.51569938659668
+  },
+  {
+    "id": 12,
+    "timestamp": "2025-02-10T09:38:44.069831",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xfCf09A045b37735ee43AF85895646591d2f7118D"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Gulf Of America\", \"symbol\":\"GOA\", \"decimals\":9, \"address\":\"0xfCf09A045b37735ee43AF85895646591d2f7118D\", \"totalHolders\":85}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"165402\", \"sellGas\":\"111965\"}, \"holderAnalysis\":{\"holders\":\"70\", \"successful\":\"70\", \"failed\":\"0\", \"siphoned\":\"0\", \"averageTax\":0.2077142857142857, \"averageGas\":135677.91428571427, \"highestTax\":8.12, \"highTaxWallets\":\"0\", \"taxDistribution\":[{\"tax\":0, \"count\":68}, {\"tax\":6, \"count\":1}, {\"tax\":8, \"count\":1}], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WETH-GOA\", \"address\":\"0x26CF51F69a5c741147D8ba91dae9A2Aea78a8D2A\", \"token0\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"token1\":\"0xfCf09A045b37735ee43AF85895646591d2f7118D\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"11510093831525306012\", \"reserves1\":\"86104911552859672\", \"liquidity\":60250.04656487248, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739141939\", \"creationTxHash\":\"0x048ee53dae0937c3414f44f35afe466b13107bac86e2caf6a2abcd69d3531e01\"}, \"pairAddress\":\"0x26CF51F69a5c741147D8ba91dae9A2Aea78a8D2A\"}",
+    "error": null,
+    "time_since_last_call": 15.50374150276184
+  },
+  {
+    "id": 13,
+    "timestamp": "2025-02-10T09:38:59.594770",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0x2f14efcb9274c3fb511d555026f21afdddafe8eb\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"creator_balance\":\"450000000\",\"creator_percent\":\"0.500000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"1558.52400000\",\"pair\":\"0xaf2dc5e7d3e739a4c57e5cbaca002b73b7ca4681\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"2\",\"holders\":[{\"address\":\"0xaf2dc5e7d3e739a4c57e5cbaca002b73b7ca4681\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"450000000\",\"percent\":\"0.500000000000000000\",\"is_locked\":0},{\"address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"450000000\",\"percent\":\"0.500000000000000000\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"16431.676725154983402709\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"16431.676725154983403709\",\"owner_address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"owner_balance\":\"450000000\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.500000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"SNORT\",\"token_symbol\":\"SNT\",\"total_supply\":\"900000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 15.663923025131226
+  },
+  {
+    "id": 14,
+    "timestamp": "2025-02-10T09:38:59.893257",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"SNORT\", \"symbol\":\"SNT\", \"decimals\":18, \"address\":\"0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB\", \"totalHolders\":2}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"145745\", \"sellGas\":\"104946\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":true, \"hasProxyCalls\":true}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: SNT-WETH\", \"address\":\"0xAF2Dc5E7D3E739A4C57E5CbacA002B73b7ca4681\", \"token0\":\"0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"446313471627158407093446905\", \"reserves1\":\"605486883403475166\", \"liquidity\":3169.445310650827, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739142347\", \"creationTxHash\":\"0x5846686255c66def0c4c4fa10d21617b3d2d1f987cce14cca0d03b9bd5e4a04b\"}, \"pairAddress\":\"0xAF2Dc5E7D3E739A4C57E5CbacA002B73b7ca4681\"}",
+    "error": null,
+    "time_since_last_call": 15.823425531387329
+  },
+  {
+    "id": 15,
+    "timestamp": "2025-02-10T09:40:04.066761",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xa3f8be9b18c9128b99efcf1cc8adb63daacd5ca8\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"creator_address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"creator_balance\":\"22040368607.749435778039056937\",\"creator_percent\":\"0.958277\",\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"3\",\"holders\":[{\"address\":\"0xf2002db46d35b8e1dcb78e3c64e79b8670da220d\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"22937630497.438329052548932857\",\"percent\":\"0.997288282497318654\",\"is_locked\":0},{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"62213578.805266770082439476\",\"percent\":\"0.002704938208924642\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"155923.756404177368627667\",\"percent\":\"0.000006779293756703\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"0\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"355668.384875574792771934\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"355668.384875574792772934\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"\",\"slippage_modifiable\":\"0\",\"token_name\":\"\\uD83E\\uDD88SharkAi\",\"token_symbol\":\"\\uD83E\\uDD88SharkAi\",\"total_supply\":\"23000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 64.47199130058289
+  },
+  {
+    "id": 16,
+    "timestamp": "2025-02-10T09:40:04.354419",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"\ud83e\udd88SharkAi\", \"symbol\":\"\ud83e\udd88SharkAi\", \"decimals\":18, \"address\":\"0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8\", \"totalHolders\":9}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"honeypot\", \"riskLevel\":100, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":true, \"honeypotReason\":\"execution reverted: UniswapV2: INSUFFICIENT_OUTPUT_AMOUNT\"}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":100, \"transferTax\":0, \"buyGas\":\"0\", \"sellGas\":\"0\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: \ud83e\udd88SharkAi-WETH\", \"address\":\"0xF2002DB46D35b8e1dcB78e3c64e79B8670Da220d\", \"token0\":\"0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"61793952\", \"reserves1\":\"1\", \"liquidity\":0, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739139587\", \"creationTxHash\":\"0xe741742ef94a270472dcda57b1cb2d3067a2c1440b488dd8fb27c251b53e8c0c\"}, \"pairAddress\":\"0xF2002DB46D35b8e1dcB78e3c64e79B8670Da220d\"}",
+    "error": null,
+    "time_since_last_call": 64.46116256713867
+  },
+  {
+    "id": 17,
+    "timestamp": "2025-02-10T09:40:14.628246",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xd56cef68b9c65e6e271a6ca6a394f7f129aa33cc\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"creator_balance\":\"67078808.611219453543579562\",\"creator_percent\":\"0.002916\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"13769.44730978\",\"pair\":\"0xcf1b860b279d324fec714e9659012d092935d50b\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"4\",\"holders\":[{\"address\":\"0xcf1b860b279d324fec714e9659012d092935d50b\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"22799433221.161951001756241568\",\"percent\":\"0.991279705267910913\",\"is_locked\":0},{\"address\":\"0x453c6bbc42ac532bdf6149c36d8fedf4e87997a4\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"132986553.279734422204569475\",\"percent\":\"0.005782024055640627\",\"is_locked\":0},{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"67078808.611219453543579562\",\"percent\":\"0.002916469939618237\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"501416.947095122495609395\",\"percent\":\"0.000021800736830222\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"342490.875790874172010908\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"342490.875790874172011908\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"SysCall\",\"token_symbol\":\"SysCall\",\"total_supply\":\"23000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.561485290527344
+  },
+  {
+    "id": 18,
+    "timestamp": "2025-02-10T09:40:14.774256",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"SysCall\", \"symbol\":\"SysCall\", \"decimals\":18, \"address\":\"0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC\", \"totalHolders\":5}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"144028\", \"sellGas\":\"104245\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WETH-SysCall\", \"address\":\"0xCf1b860B279D324fEc714e9659012D092935d50b\", \"token0\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"token1\":\"0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"5294914706330698763\", \"reserves1\":\"22155965199779149883917410930\", \"liquidity\":27795.019361118248, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739140091\", \"creationTxHash\":\"0xe129a5559c263825c75afcd17bbb4609777fe654ba61daef63ee7caaecf0256f\"}, \"pairAddress\":\"0xCf1b860B279D324fEc714e9659012D092935d50b\"}",
+    "error": null,
+    "time_since_last_call": 10.41983699798584
+  },
+  {
+    "id": 19,
+    "timestamp": "2025-02-10T09:40:25.046393",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xc343bca88e6309b4d19a410d51dd0e5a6f41a0ab\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0xcfee37da8b59a69c6bb2947b86afa87545eb068c\",\"creator_balance\":\"0\",\"creator_percent\":\"0.000000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"921.20989037\",\"pair\":\"0x3dd02e08555fb4bce1bd5f3daf09cd58bb1d3637\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"4\",\"holders\":[{\"address\":\"0x3dd02e08555fb4bce1bd5f3daf09cd58bb1d3637\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"95909204778.531055754747999813\",\"percent\":\"0.959092047785310557\",\"is_locked\":0},{\"address\":\"0xcfee37da8b59a69c6bb2947b86afa87545eb068c\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"3083068233.415271884638870187\",\"percent\":\"0.030830682334152718\",\"is_locked\":0},{\"address\":\"0xb44ea272f317e379567ce54acd94a2891597024e\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"1000000000\",\"percent\":\"0.010000000000000000\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"7726988.05367236061313\",\"percent\":\"0.000077269880536723\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"2\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0xcfee37da8b59a69c6bb2947b86afa87545eb068c\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"175008.928343670512288208\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"175008.928343670512289208\",\"owner_address\":\"0x0000000000000000000000000000000000000000\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.000000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"\\uD83D\\uDCF1 NOKIA\u2122 OFFICIAL\",\"token_symbol\":\"\\uD83D\\uDCF1 NOKIA\u2122\",\"total_supply\":\"100000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.418147325515747
+  },
+  {
+    "id": 20,
+    "timestamp": "2025-02-10T09:40:25.196674",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"\ud83d\udcf1 NOKIA\u2122 OFFICIAL\", \"symbol\":\"\ud83d\udcf1 NOKIA\u2122\", \"decimals\":18, \"address\":\"0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab\", \"totalHolders\":17}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"142283\", \"sellGas\":\"104515\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WETH-\ud83d\udcf1 NOKIA\u2122\", \"address\":\"0x3DD02E08555FB4BCE1Bd5F3dAF09cd58BB1D3637\", \"token0\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"token1\":\"0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"354647046961788422\", \"reserves1\":\"86946404626005352748624189060\", \"liquidity\":1859.0385413508768, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739140727\", \"creationTxHash\":\"0xb8c568ceb6dd602fc1faa3d5d133ab94e1a78e36dcb1b3f96d15364b28dc575a\"}, \"pairAddress\":\"0x3DD02E08555FB4BCE1Bd5F3dAF09cd58BB1D3637\"}",
+    "error": null,
+    "time_since_last_call": 10.422418117523193
+  },
+  {
+    "id": 21,
+    "timestamp": "2025-02-10T09:40:35.473143",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xb1c8ada4cd0f939235f53dfadc4e075bf2b47adb\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"creator_address\":\"0xdf4aceb86a299a3fe3fea8921a04360a5d34a623\",\"creator_balance\":\"3340064583.36939613\",\"creator_percent\":\"0.835016\",\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"1\",\"holders\":[{\"address\":\"0x00c35b6c660493499761f05239888ce6fbc0247c\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"4000000000\",\"percent\":\"1.000000000000000000\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"0\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0xdf4aceb86a299a3fe3fea8921a04360a5d34a623\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"6.324555320336757663\",\"percent\":\"0.999999999999999841\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000158\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"6.324555320336758663\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"\",\"slippage_modifiable\":\"0\",\"token_name\":\"Bear White\",\"token_symbol\":\"WHITBEAR\",\"total_supply\":\"4000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.42674994468689
+  },
+  {
+    "id": 22,
+    "timestamp": "2025-02-10T09:40:35.648143",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Bear White\", \"symbol\":\"WHITBEAR\", \"decimals\":10, \"address\":\"0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb\", \"totalHolders\":11}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"honeypot\", \"riskLevel\":100, \"flags\":[{\"flag\":\"high_fail_rate\", \"description\":\"A very high amount of users cannot sell their tokens.\", \"severity\":\"critical\", \"severityIndex\":20}]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":true, \"honeypotReason\":\"execution reverted: UniswapV2: INSUFFICIENT_OUTPUT_AMOUNT\"}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":100, \"transferTax\":0, \"buyGas\":\"0\", \"sellGas\":\"0\"}, \"holderAnalysis\":{\"holders\":\"2\", \"successful\":\"0\", \"failed\":\"2\", \"siphoned\":\"0\", \"averageTax\":0, \"averageGas\":0, \"highestTax\":0, \"highTaxWallets\":\"0\", \"taxDistribution\":[], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[\"high_fail_rate\"], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WHITBEAR-WETH\", \"address\":\"0x00C35b6C660493499761F05239888Ce6fbc0247c\", \"token0\":\"0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"159014902673718291\", \"reserves1\":\"1\", \"liquidity\":0, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739140751\", \"creationTxHash\":\"0xaeaace6f9874c19a90bfd7026942cec4c2ed906bded9bc45da41689852402f82\"}, \"pairAddress\":\"0x00C35b6C660493499761F05239888Ce6fbc0247c\"}",
+    "error": null,
+    "time_since_last_call": 10.451468706130981
+  },
+  {
+    "id": 23,
+    "timestamp": "2025-02-10T09:40:45.918568",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xb95F938731a01F816D1932Bf2929b3738c8AA5Be"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xb95f938731a01f816d1932bf2929b3738c8aa5be\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x36231de97d1813d3dcf8bd84d814d582042c77a4\",\"creator_balance\":\"197237025.2145163925\",\"creator_percent\":\"0.049309\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"3572.23441575\",\"pair\":\"0xf05c1dc033c1edeeaee902a6bedcd42ad9c5071a\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"4\",\"holders\":[{\"address\":\"0xf05c1dc033c1edeeaee902a6bedcd42ad9c5071a\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"3607425302.6836054324\",\"percent\":\"0.901856325670901358\",\"is_locked\":0},{\"address\":\"0x36231de97d1813d3dcf8bd84d814d582042c77a4\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"197237025.2145163925\",\"percent\":\"0.049309256303629098\",\"is_locked\":0},{\"address\":\"0x367c8c762d11cbe09a6669e2d73233004cc290d5\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"194356235.3585871888\",\"percent\":\"0.048589058839646797\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"981436.7432909863\",\"percent\":\"0.000245359185822746\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x36231de97d1813d3dcf8bd84d814d582042c77a4\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"6.324555320336757663\",\"percent\":\"0.999999999999999841\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000158\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"6.324555320336758663\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"Wild Cat\",\"token_symbol\":\"WILDCAT\",\"total_supply\":\"4000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.445424318313599
+  },
+  {
+    "id": 24,
+    "timestamp": "2025-02-10T09:40:46.066447",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xb95F938731a01F816D1932Bf2929b3738c8AA5Be"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Wild Cat\", \"symbol\":\"WILDCAT\", \"decimals\":10, \"address\":\"0xb95F938731a01F816D1932Bf2929b3738c8AA5Be\", \"totalHolders\":14}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"141849\", \"sellGas\":\"104190\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WILDCAT-WETH\", \"address\":\"0xF05C1DC033c1eDEeaee902a6beDcd42ad9C5071A\", \"token0\":\"0xb95F938731a01F816D1932Bf2929b3738c8AA5Be\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"27289533502330544998\", \"reserves1\":\"1467458016099897197\", \"liquidity\":7681.467683595555, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739141723\", \"creationTxHash\":\"0x62dbb75564debb401f758b0fb90fdd1c22a73be1277730bbc0cb1f476647289f\"}, \"pairAddress\":\"0xF05C1DC033c1eDEeaee902a6beDcd42ad9C5071A\"}",
+    "error": null,
+    "time_since_last_call": 10.418303966522217
+  },
+  {
+    "id": 25,
+    "timestamp": "2025-02-10T09:40:56.332136",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xfCf09A045b37735ee43AF85895646591d2f7118D"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xfcf09a045b37735ee43af85895646591d2f7118d\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x317ab241f5d6a79207570a9c313a89c3329b1457\",\"creator_balance\":\"20000000\",\"creator_percent\":\"0.020000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"30521.75897865\",\"pair\":\"0x26cf51f69a5c741147d8ba91dae9a2aea78a8d2a\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"69\",\"holders\":[{\"address\":\"0x26cf51f69a5c741147d8ba91dae9a2aea78a8d2a\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"123584149.64734418\",\"percent\":\"0.123584149647344180\",\"is_locked\":0},{\"address\":\"0x317ab241f5d6a79207570a9c313a89c3329b1457\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"20000000\",\"percent\":\"0.020000000000000000\",\"is_locked\":0},{\"address\":\"0xce6b3bf77aa701c7ff0f4e97b8abc7637adc7bca\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19997999.999999999\",\"percent\":\"0.019997999999999999\",\"is_locked\":0},{\"address\":\"0xdda00dce8c96c4455780c31813aea92c9867e7a3\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19964999.999999999\",\"percent\":\"0.019964999999999999\",\"is_locked\":0},{\"address\":\"0x65b5fd916d12ea06bddcb4685e9abc5bb1d32031\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19964999.999999999\",\"percent\":\"0.019964999999999999\",\"is_locked\":0},{\"address\":\"0x1cbd03df5a120d5d4e5e4486466935693248e976\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19920999.999999999\",\"percent\":\"0.019920999999999999\",\"is_locked\":0},{\"address\":\"0x4a41660d48dfa5c44c8f6d1d023278f9be4d8fef\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19911999.999999999\",\"percent\":\"0.019911999999999999\",\"is_locked\":0},{\"address\":\"0xa95cbf736fa4daeac143e2ff2e7cbc5fab76ae32\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19898999.999999999\",\"percent\":\"0.019898999999999999\",\"is_locked\":0},{\"address\":\"0xe8e3fc5d2a50c042c9dfacbd982448c878fcd006\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19891999.999999999\",\"percent\":\"0.019891999999999999\",\"is_locked\":0},{\"address\":\"0x4634927d3433083a35b9940640bebcc4c15c4851\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19831999.999999999\",\"percent\":\"0.019831999999999999\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x000000000000000000000000000000000000dead\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"0.989949493661165534\",\"percent\":\"0.999999999999998989\",\"NFT_list\":null,\"is_locked\":1},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000001010\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"0.989949493661166534\",\"owner_address\":\"0x0000000000000000000000000000000000000000\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.000000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"Gulf Of America\",\"token_symbol\":\"GOA\",\"total_supply\":\"1000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.413568496704102
+  },
+  {
+    "id": 26,
+    "timestamp": "2025-02-10T09:40:56.475165",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xfCf09A045b37735ee43AF85895646591d2f7118D"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Gulf Of America\", \"symbol\":\"GOA\", \"decimals\":9, \"address\":\"0xfCf09A045b37735ee43AF85895646591d2f7118D\", \"totalHolders\":88}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"165402\", \"sellGas\":\"111965\"}, \"holderAnalysis\":{\"holders\":\"72\", \"successful\":\"72\", \"failed\":\"0\", \"siphoned\":\"0\", \"averageTax\":0.20194444444444443, \"averageGas\":135600.22222222222, \"highestTax\":8.12, \"highTaxWallets\":\"0\", \"taxDistribution\":[{\"tax\":0, \"count\":70}, {\"tax\":6, \"count\":1}, {\"tax\":8, \"count\":1}], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WETH-GOA\", \"address\":\"0x26CF51F69a5c741147D8ba91dae9A2Aea78a8D2A\", \"token0\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"token1\":\"0xfCf09A045b37735ee43AF85895646591d2f7118D\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"11958182123325453991\", \"reserves1\":\"82994275408221052\", \"liquidity\":62595.58265183202, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739141939\", \"creationTxHash\":\"0x048ee53dae0937c3414f44f35afe466b13107bac86e2caf6a2abcd69d3531e01\"}, \"pairAddress\":\"0x26CF51F69a5c741147D8ba91dae9A2Aea78a8D2A\"}",
+    "error": null,
+    "time_since_last_call": 10.408718347549438
+  },
+  {
+    "id": 27,
+    "timestamp": "2025-02-10T09:41:06.789634",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0x2f14efcb9274c3fb511d555026f21afdddafe8eb\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"creator_balance\":\"450000000\",\"creator_percent\":\"0.500000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"1558.52400000\",\"pair\":\"0xaf2dc5e7d3e739a4c57e5cbaca002b73b7ca4681\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"2\",\"holders\":[{\"address\":\"0xaf2dc5e7d3e739a4c57e5cbaca002b73b7ca4681\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"450000000\",\"percent\":\"0.500000000000000000\",\"is_locked\":0},{\"address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"450000000\",\"percent\":\"0.500000000000000000\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"16431.676725154983402709\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"16431.676725154983403709\",\"owner_address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"owner_balance\":\"450000000\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.500000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"SNORT\",\"token_symbol\":\"SNT\",\"total_supply\":\"900000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.45749807357788
+  },
+  {
+    "id": 28,
+    "timestamp": "2025-02-10T09:41:06.913821",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"SNORT\", \"symbol\":\"SNT\", \"decimals\":18, \"address\":\"0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB\", \"totalHolders\":3}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"145745\", \"sellGas\":\"104946\"}, \"holderAnalysis\":{\"holders\":\"1\", \"successful\":\"1\", \"failed\":\"0\", \"siphoned\":\"0\", \"averageTax\":0, \"averageGas\":105962, \"highestTax\":0, \"highTaxWallets\":\"0\", \"taxDistribution\":[{\"tax\":0, \"count\":1}], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":true, \"hasProxyCalls\":true}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: SNT-WETH\", \"address\":\"0xAF2Dc5E7D3E739A4C57E5CbacA002B73b7ca4681\", \"token0\":\"0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"446313471627158407093446905\", \"reserves1\":\"605486883403475166\", \"liquidity\":3169.445310650827, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739142347\", \"creationTxHash\":\"0x5846686255c66def0c4c4fa10d21617b3d2d1f987cce14cca0d03b9bd5e4a04b\"}, \"pairAddress\":\"0xAF2Dc5E7D3E739A4C57E5CbacA002B73b7ca4681\"}",
+    "error": null,
+    "time_since_last_call": 10.438656091690063
+  },
+  {
+    "id": 29,
+    "timestamp": "2025-02-10T09:42:44.108688",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xa3f8be9b18c9128b99efcf1cc8adb63daacd5ca8\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"creator_address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"creator_balance\":\"22040368607.749435778039056937\",\"creator_percent\":\"0.958277\",\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"3\",\"holders\":[{\"address\":\"0xf2002db46d35b8e1dcb78e3c64e79b8670da220d\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"22937630497.438329052548932857\",\"percent\":\"0.997288282497318654\",\"is_locked\":0},{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"62213578.805266770082439476\",\"percent\":\"0.002704938208924642\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"155923.756404177368627667\",\"percent\":\"0.000006779293756703\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"0\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"355668.384875574792771934\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"355668.384875574792772934\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"\",\"slippage_modifiable\":\"0\",\"token_name\":\"\\uD83E\\uDD88SharkAi\",\"token_symbol\":\"\\uD83E\\uDD88SharkAi\",\"total_supply\":\"23000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 97.31905317306519
+  },
+  {
+    "id": 30,
+    "timestamp": "2025-02-10T09:42:44.390685",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"\ud83e\udd88SharkAi\", \"symbol\":\"\ud83e\udd88SharkAi\", \"decimals\":18, \"address\":\"0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8\", \"totalHolders\":9}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"honeypot\", \"riskLevel\":100, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":true, \"honeypotReason\":\"execution reverted: UniswapV2: INSUFFICIENT_OUTPUT_AMOUNT\"}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":100, \"transferTax\":0, \"buyGas\":\"0\", \"sellGas\":\"0\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: \ud83e\udd88SharkAi-WETH\", \"address\":\"0xF2002DB46D35b8e1dcB78e3c64e79B8670Da220d\", \"token0\":\"0xa3f8BE9b18c9128B99EFcF1Cc8aDb63DaAcD5ca8\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"61793952\", \"reserves1\":\"1\", \"liquidity\":0, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739139587\", \"creationTxHash\":\"0xe741742ef94a270472dcda57b1cb2d3067a2c1440b488dd8fb27c251b53e8c0c\"}, \"pairAddress\":\"0xF2002DB46D35b8e1dcB78e3c64e79B8670Da220d\"}",
+    "error": null,
+    "time_since_last_call": 97.47686386108398
+  },
+  {
+    "id": 31,
+    "timestamp": "2025-02-10T09:42:54.648098",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xd56cef68b9c65e6e271a6ca6a394f7f129aa33cc\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"creator_balance\":\"67078808.611219453543579562\",\"creator_percent\":\"0.002916\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"13769.44730978\",\"pair\":\"0xcf1b860b279d324fec714e9659012d092935d50b\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"4\",\"holders\":[{\"address\":\"0xcf1b860b279d324fec714e9659012d092935d50b\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"22799433221.161951001756241568\",\"percent\":\"0.991279705267910913\",\"is_locked\":0},{\"address\":\"0x453c6bbc42ac532bdf6149c36d8fedf4e87997a4\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"132986553.279734422204569475\",\"percent\":\"0.005782024055640627\",\"is_locked\":0},{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"67078808.611219453543579562\",\"percent\":\"0.002916469939618237\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"501416.947095122495609395\",\"percent\":\"0.000021800736830222\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x26c3778cc539a9b0ff78b4925c309563070f65fe\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"342490.875790874172010908\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"342490.875790874172011908\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"SysCall\",\"token_symbol\":\"SysCall\",\"total_supply\":\"23000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.53941011428833
+  },
+  {
+    "id": 32,
+    "timestamp": "2025-02-10T09:42:54.800228",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"SysCall\", \"symbol\":\"SysCall\", \"decimals\":18, \"address\":\"0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC\", \"totalHolders\":5}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"144028\", \"sellGas\":\"104245\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WETH-SysCall\", \"address\":\"0xCf1b860B279D324fEc714e9659012D092935d50b\", \"token0\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"token1\":\"0xD56CEF68b9c65E6E271A6CA6A394F7F129aA33cC\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"5294914706330698763\", \"reserves1\":\"22155965199779149883917410930\", \"liquidity\":27795.019361118248, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739140091\", \"creationTxHash\":\"0xe129a5559c263825c75afcd17bbb4609777fe654ba61daef63ee7caaecf0256f\"}, \"pairAddress\":\"0xCf1b860B279D324fEc714e9659012D092935d50b\"}",
+    "error": null,
+    "time_since_last_call": 10.40954327583313
+  },
+  {
+    "id": 33,
+    "timestamp": "2025-02-10T09:43:05.068122",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xc343bca88e6309b4d19a410d51dd0e5a6f41a0ab\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0xcfee37da8b59a69c6bb2947b86afa87545eb068c\",\"creator_balance\":\"0\",\"creator_percent\":\"0.000000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"928.45532953\",\"pair\":\"0x3dd02e08555fb4bce1bd5f3daf09cd58bb1d3637\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"4\",\"holders\":[{\"address\":\"0x3dd02e08555fb4bce1bd5f3daf09cd58bb1d3637\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"95909204778.531055754747999813\",\"percent\":\"0.959092047785310557\",\"is_locked\":0},{\"address\":\"0xcfee37da8b59a69c6bb2947b86afa87545eb068c\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"3083068233.415271884638870187\",\"percent\":\"0.030830682334152718\",\"is_locked\":0},{\"address\":\"0xb44ea272f317e379567ce54acd94a2891597024e\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"1000000000\",\"percent\":\"0.010000000000000000\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"7726988.05367236061313\",\"percent\":\"0.000077269880536723\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"2\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0xcfee37da8b59a69c6bb2947b86afa87545eb068c\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"175008.928343670512288208\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"175008.928343670512289208\",\"owner_address\":\"0x0000000000000000000000000000000000000000\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.000000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"\\uD83D\\uDCF1 NOKIA\u2122 OFFICIAL\",\"token_symbol\":\"\\uD83D\\uDCF1 NOKIA\u2122\",\"total_supply\":\"100000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.420024633407593
+  },
+  {
+    "id": 34,
+    "timestamp": "2025-02-10T09:43:05.217530",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"\ud83d\udcf1 NOKIA\u2122 OFFICIAL\", \"symbol\":\"\ud83d\udcf1 NOKIA\u2122\", \"decimals\":18, \"address\":\"0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab\", \"totalHolders\":17}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"142283\", \"sellGas\":\"104515\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WETH-\ud83d\udcf1 NOKIA\u2122\", \"address\":\"0x3DD02E08555FB4BCE1Bd5F3dAF09cd58BB1D3637\", \"token0\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"token1\":\"0xC343bcA88E6309b4D19A410D51DD0E5a6F41a0ab\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"354647046961788422\", \"reserves1\":\"86946404626005352748624189060\", \"liquidity\":1859.0385413508768, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739140727\", \"creationTxHash\":\"0xb8c568ceb6dd602fc1faa3d5d133ab94e1a78e36dcb1b3f96d15364b28dc575a\"}, \"pairAddress\":\"0x3DD02E08555FB4BCE1Bd5F3dAF09cd58BB1D3637\"}",
+    "error": null,
+    "time_since_last_call": 10.417302131652832
+  },
+  {
+    "id": 35,
+    "timestamp": "2025-02-10T09:43:15.485698",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xb1c8ada4cd0f939235f53dfadc4e075bf2b47adb\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"creator_address\":\"0xdf4aceb86a299a3fe3fea8921a04360a5d34a623\",\"creator_balance\":\"3340064583.36939613\",\"creator_percent\":\"0.835016\",\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"1\",\"holders\":[{\"address\":\"0x00c35b6c660493499761f05239888ce6fbc0247c\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"4000000000\",\"percent\":\"1.000000000000000000\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"0\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0xdf4aceb86a299a3fe3fea8921a04360a5d34a623\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"6.324555320336757663\",\"percent\":\"0.999999999999999841\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000158\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"6.324555320336758663\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"\",\"slippage_modifiable\":\"0\",\"token_name\":\"Bear White\",\"token_symbol\":\"WHITBEAR\",\"total_supply\":\"4000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.417575597763062
+  },
+  {
+    "id": 36,
+    "timestamp": "2025-02-10T09:43:15.645258",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Bear White\", \"symbol\":\"WHITBEAR\", \"decimals\":10, \"address\":\"0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb\", \"totalHolders\":11}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"honeypot\", \"riskLevel\":100, \"flags\":[{\"flag\":\"high_fail_rate\", \"description\":\"A very high amount of users cannot sell their tokens.\", \"severity\":\"critical\", \"severityIndex\":20}]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":true, \"honeypotReason\":\"execution reverted: UniswapV2: INSUFFICIENT_OUTPUT_AMOUNT\"}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":100, \"transferTax\":0, \"buyGas\":\"0\", \"sellGas\":\"0\"}, \"holderAnalysis\":{\"holders\":\"2\", \"successful\":\"0\", \"failed\":\"2\", \"siphoned\":\"0\", \"averageTax\":0, \"averageGas\":0, \"highestTax\":0, \"highTaxWallets\":\"0\", \"taxDistribution\":[], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[\"high_fail_rate\"], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WHITBEAR-WETH\", \"address\":\"0x00C35b6C660493499761F05239888Ce6fbc0247c\", \"token0\":\"0xb1C8ADa4CD0f939235F53dFADc4E075bF2b47Adb\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"159014902673718291\", \"reserves1\":\"1\", \"liquidity\":0, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739140751\", \"creationTxHash\":\"0xaeaace6f9874c19a90bfd7026942cec4c2ed906bded9bc45da41689852402f82\"}, \"pairAddress\":\"0x00C35b6C660493499761F05239888Ce6fbc0247c\"}",
+    "error": null,
+    "time_since_last_call": 10.427727222442627
+  },
+  {
+    "id": 37,
+    "timestamp": "2025-02-10T09:43:25.899110",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xb95F938731a01F816D1932Bf2929b3738c8AA5Be"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xb95f938731a01f816d1932bf2929b3738c8aa5be\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x36231de97d1813d3dcf8bd84d814d582042c77a4\",\"creator_balance\":\"197237025.2145163925\",\"creator_percent\":\"0.049309\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"3572.23441575\",\"pair\":\"0xf05c1dc033c1edeeaee902a6bedcd42ad9c5071a\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"4\",\"holders\":[{\"address\":\"0xf05c1dc033c1edeeaee902a6bedcd42ad9c5071a\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"3607425302.6836054324\",\"percent\":\"0.901856325670901358\",\"is_locked\":0},{\"address\":\"0x36231de97d1813d3dcf8bd84d814d582042c77a4\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"197237025.2145163925\",\"percent\":\"0.049309256303629098\",\"is_locked\":0},{\"address\":\"0x367c8c762d11cbe09a6669e2d73233004cc290d5\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"194356235.3585871888\",\"percent\":\"0.048589058839646797\",\"is_locked\":0},{\"address\":\"0x000000fee13a103a10d593b9ae06b3e05f2e7e1c\",\"tag\":\"\",\"is_contract\":1,\"balance\":\"981436.7432909863\",\"percent\":\"0.000245359185822746\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x36231de97d1813d3dcf8bd84d814d582042c77a4\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"6.324555320336757663\",\"percent\":\"0.999999999999999841\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000158\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"6.324555320336758663\",\"owner_address\":\"\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"Wild Cat\",\"token_symbol\":\"WILDCAT\",\"total_supply\":\"4000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.413411855697632
+  },
+  {
+    "id": 38,
+    "timestamp": "2025-02-10T09:43:26.044119",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xb95F938731a01F816D1932Bf2929b3738c8AA5Be"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Wild Cat\", \"symbol\":\"WILDCAT\", \"decimals\":10, \"address\":\"0xb95F938731a01F816D1932Bf2929b3738c8AA5Be\", \"totalHolders\":14}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"141849\", \"sellGas\":\"104190\"}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WILDCAT-WETH\", \"address\":\"0xF05C1DC033c1eDEeaee902a6beDcd42ad9C5071A\", \"token0\":\"0xb95F938731a01F816D1932Bf2929b3738c8AA5Be\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"27289533502330544998\", \"reserves1\":\"1467458016099897197\", \"liquidity\":7681.467683595555, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739141723\", \"creationTxHash\":\"0x62dbb75564debb401f758b0fb90fdd1c22a73be1277730bbc0cb1f476647289f\"}, \"pairAddress\":\"0xF05C1DC033c1eDEeaee902a6beDcd42ad9C5071A\"}",
+    "error": null,
+    "time_since_last_call": 10.398860931396484
+  },
+  {
+    "id": 39,
+    "timestamp": "2025-02-10T09:43:36.338331",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0xfCf09A045b37735ee43AF85895646591d2f7118D"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0xfcf09a045b37735ee43af85895646591d2f7118d\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x317ab241f5d6a79207570a9c313a89c3329b1457\",\"creator_balance\":\"20000000\",\"creator_percent\":\"0.020000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"30892.25217043\",\"pair\":\"0x26cf51f69a5c741147d8ba91dae9a2aea78a8d2a\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"69\",\"holders\":[{\"address\":\"0x26cf51f69a5c741147d8ba91dae9a2aea78a8d2a\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"123584149.64734418\",\"percent\":\"0.123584149647344180\",\"is_locked\":0},{\"address\":\"0x317ab241f5d6a79207570a9c313a89c3329b1457\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"20000000\",\"percent\":\"0.020000000000000000\",\"is_locked\":0},{\"address\":\"0xce6b3bf77aa701c7ff0f4e97b8abc7637adc7bca\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19997999.999999999\",\"percent\":\"0.019997999999999999\",\"is_locked\":0},{\"address\":\"0xdda00dce8c96c4455780c31813aea92c9867e7a3\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19964999.999999999\",\"percent\":\"0.019964999999999999\",\"is_locked\":0},{\"address\":\"0x65b5fd916d12ea06bddcb4685e9abc5bb1d32031\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19964999.999999999\",\"percent\":\"0.019964999999999999\",\"is_locked\":0},{\"address\":\"0x1cbd03df5a120d5d4e5e4486466935693248e976\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19920999.999999999\",\"percent\":\"0.019920999999999999\",\"is_locked\":0},{\"address\":\"0x4a41660d48dfa5c44c8f6d1d023278f9be4d8fef\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19911999.999999999\",\"percent\":\"0.019911999999999999\",\"is_locked\":0},{\"address\":\"0xa95cbf736fa4daeac143e2ff2e7cbc5fab76ae32\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19898999.999999999\",\"percent\":\"0.019898999999999999\",\"is_locked\":0},{\"address\":\"0xe8e3fc5d2a50c042c9dfacbd982448c878fcd006\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19891999.999999999\",\"percent\":\"0.019891999999999999\",\"is_locked\":0},{\"address\":\"0x4634927d3433083a35b9940640bebcc4c15c4851\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"19831999.999999999\",\"percent\":\"0.019831999999999999\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x000000000000000000000000000000000000dead\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"0.989949493661165534\",\"percent\":\"0.999999999999998989\",\"NFT_list\":null,\"is_locked\":1},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000001010\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"0.989949493661166534\",\"owner_address\":\"0x0000000000000000000000000000000000000000\",\"owner_balance\":\"0\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.000000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"Gulf Of America\",\"token_symbol\":\"GOA\",\"total_supply\":\"1000000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.439220905303955
+  },
+  {
+    "id": 40,
+    "timestamp": "2025-02-10T09:43:36.458493",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0xfCf09A045b37735ee43AF85895646591d2f7118D"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"Gulf Of America\", \"symbol\":\"GOA\", \"decimals\":9, \"address\":\"0xfCf09A045b37735ee43AF85895646591d2f7118D\", \"totalHolders\":93}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"165402\", \"sellGas\":\"111965\"}, \"holderAnalysis\":{\"holders\":\"80\", \"successful\":\"80\", \"failed\":\"0\", \"siphoned\":\"0\", \"averageTax\":0.18175, \"averageGas\":135468.3, \"highestTax\":8.12, \"highTaxWallets\":\"0\", \"taxDistribution\":[{\"tax\":0, \"count\":78}, {\"tax\":6, \"count\":1}, {\"tax\":8, \"count\":1}], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":false, \"hasProxyCalls\":false}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: WETH-GOA\", \"address\":\"0x26CF51F69a5c741147D8ba91dae9A2Aea78a8D2A\", \"token0\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"token1\":\"0xfCf09A045b37735ee43AF85895646591d2f7118D\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"11800078752022098597\", \"reserves1\":\"84175418012864437\", \"liquidity\":61767.984230609756, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739141939\", \"creationTxHash\":\"0x048ee53dae0937c3414f44f35afe466b13107bac86e2caf6a2abcd69d3531e01\"}, \"pairAddress\":\"0x26CF51F69a5c741147D8ba91dae9A2Aea78a8D2A\"}",
+    "error": null,
+    "time_since_last_call": 10.414374113082886
+  },
+  {
+    "id": 41,
+    "timestamp": "2025-02-10T09:43:46.738372",
+    "endpoint": "goplus",
+    "method": "GET",
+    "params": {
+      "contract_addresses": "0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB"
+    },
+    "response_code": 200,
+    "response_body": "{\"code\":1,\"message\":\"OK\",\"result\":{\"0x2f14efcb9274c3fb511d555026f21afdddafe8eb\":{\"anti_whale_modifiable\":\"0\",\"buy_tax\":\"0\",\"can_take_back_ownership\":\"0\",\"cannot_buy\":\"0\",\"cannot_sell_all\":\"0\",\"creator_address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"creator_balance\":\"450000000\",\"creator_percent\":\"0.500000\",\"dex\":[{\"liquidity_type\":\"UniV2\",\"name\":\"UniswapV2\",\"liquidity\":\"1558.52400000\",\"pair\":\"0xaf2dc5e7d3e739a4c57e5cbaca002b73b7ca4681\"}],\"external_call\":\"0\",\"hidden_owner\":\"0\",\"holder_count\":\"2\",\"holders\":[{\"address\":\"0xaf2dc5e7d3e739a4c57e5cbaca002b73b7ca4681\",\"tag\":\"UniswapV2\",\"is_contract\":1,\"balance\":\"450000000\",\"percent\":\"0.500000000000000000\",\"is_locked\":0},{\"address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"tag\":\"\",\"is_contract\":0,\"balance\":\"450000000\",\"percent\":\"0.500000000000000000\",\"is_locked\":0}],\"honeypot_with_same_creator\":\"0\",\"is_anti_whale\":\"0\",\"is_blacklisted\":\"0\",\"is_honeypot\":\"0\",\"is_in_dex\":\"1\",\"is_mintable\":\"0\",\"is_open_source\":\"1\",\"is_proxy\":\"0\",\"is_whitelisted\":\"0\",\"lp_holder_count\":\"2\",\"lp_holders\":[{\"address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"tag\":\"\",\"value\":null,\"is_contract\":0,\"balance\":\"16431.676725154983402709\",\"percent\":\"0.999999999999999999\",\"NFT_list\":null,\"is_locked\":0},{\"address\":\"0x0000000000000000000000000000000000000000\",\"tag\":\"Null Address\",\"value\":null,\"is_contract\":0,\"balance\":\"0.000000000000001\",\"percent\":\"0.000000000000000000\",\"NFT_list\":null,\"is_locked\":1}],\"lp_total_supply\":\"16431.676725154983403709\",\"owner_address\":\"0x4e37308a4b95584cbfdbe408fd3099775296baa8\",\"owner_balance\":\"450000000\",\"owner_change_balance\":\"0\",\"owner_percent\":\"0.500000\",\"personal_slippage_modifiable\":\"0\",\"selfdestruct\":\"0\",\"sell_tax\":\"0\",\"slippage_modifiable\":\"0\",\"token_name\":\"SNORT\",\"token_symbol\":\"SNT\",\"total_supply\":\"900000000\",\"trading_cooldown\":\"0\",\"transfer_pausable\":\"0\"}}}",
+    "error": null,
+    "time_since_last_call": 10.400041818618774
+  },
+  {
+    "id": 42,
+    "timestamp": "2025-02-10T09:43:46.880698",
+    "endpoint": "honeypot",
+    "method": "GET",
+    "params": {
+      "address": "0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB"
+    },
+    "response_code": 200,
+    "response_body": "{\"token\":{\"name\":\"SNORT\", \"symbol\":\"SNT\", \"decimals\":18, \"address\":\"0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB\", \"totalHolders\":3}, \"withToken\":{\"name\":\"Wrapped Ether\", \"symbol\":\"WETH\", \"decimals\":18, \"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"totalHolders\":984833}, \"summary\":{\"risk\":\"low\", \"riskLevel\":1, \"flags\":[]}, \"simulationSuccess\":true, \"honeypotResult\":{\"isHoneypot\":false}, \"simulationResult\":{\"buyTax\":0, \"sellTax\":0, \"transferTax\":0, \"buyGas\":\"145745\", \"sellGas\":\"104946\"}, \"holderAnalysis\":{\"holders\":\"1\", \"successful\":\"1\", \"failed\":\"0\", \"siphoned\":\"0\", \"averageTax\":0, \"averageGas\":105962, \"highestTax\":0, \"highTaxWallets\":\"0\", \"taxDistribution\":[{\"tax\":0, \"count\":1}], \"snipersFailed\":0, \"snipersSuccess\":0}, \"flags\":[], \"contractCode\":{\"openSource\":true, \"rootOpenSource\":true, \"isProxy\":true, \"hasProxyCalls\":true}, \"chain\":{\"id\":\"1\", \"name\":\"Ethereum\", \"shortName\":\"eth\", \"currency\":\"ETH\"}, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"pair\":{\"pair\":{\"name\":\"Uniswap V2: SNT-WETH\", \"address\":\"0xAF2Dc5E7D3E739A4C57E5CbacA002B73b7ca4681\", \"token0\":\"0x2F14efCb9274C3fb511d555026F21aFDdDafe8EB\", \"token1\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"type\":\"UniswapV2\"}, \"chainId\":\"1\", \"reserves0\":\"446313471627158407093446905\", \"reserves1\":\"605486883403475166\", \"liquidity\":3169.445310650827, \"router\":\"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"createdAtTimestamp\":\"1739142347\", \"creationTxHash\":\"0x5846686255c66def0c4c4fa10d21617b3d2d1f987cce14cca0d03b9bd5e4a04b\"}, \"pairAddress\":\"0xAF2Dc5E7D3E739A4C57E5CbacA002B73b7ca4681\"}",
+    "error": null,
+    "time_since_last_call": 10.422205209732056
+  }
+]
